@@ -105,9 +105,9 @@ DataTable(config1, users);
 // ];
 //
 // var table = new Tabulator("#usersTable", {
-//     height: 200, // встановіть висоту таблиці (може бути будь-яке допустиме значення CSS)
+//     height: 200, 
 //     data: tabledata,
-//     layout: "fitColumns", // автоматично відповідайте розміру стовпців ширини таблиці
+//     layout: "fitColumns", 
 //     columns: [
 //         {title: 'Ім’я', field: 'name'},
 //         {title: 'Прізвище', field: 'surname'},
