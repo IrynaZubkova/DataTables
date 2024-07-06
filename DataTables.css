@@ -1,0 +1,35 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid rgba(255, 223, 34, 0.85);
+    padding: 8px;
+    text-align: left;
+    font-family: Domine, serif;
+}
+
+th {
+    background-color: rgb(255, 236, 134);
+}
+
+th:first-child, td:first-child {
+    text-align: center;
+}
+td {
+    background-color: #ddf6ef;
+    color: #685957;
+}
+tr:hover td {
+    background-color: #6dd854;
+}
+th span {
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
